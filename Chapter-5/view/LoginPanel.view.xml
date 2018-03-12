@@ -1,0 +1,17 @@
+<mvc:View
+   controllerName="sapui5.training.template.controller.LoginPanel"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Panel>
+         <headerToolbar>
+            <Toolbar>
+               <Title text="User Login"/>
+            </Toolbar>
+         </headerToolbar>
+         <content>
+            <Input/>
+            <Input/>
+            <Button text="Login" press="onOpenDialog" icon="sap-icon://world"/> 
+         </content>
+   </Panel>
+</mvc:View>

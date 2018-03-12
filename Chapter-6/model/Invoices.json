@@ -1,0 +1,48 @@
+{
+	"Invoices": [
+		{
+			"ProductName": "Pineapple",
+			"Quantity": 500,
+			"ExtendedPrice": 1087.231,
+			"ShipperName": "Fun Inc.",
+			"ShippedDate": "2015-04-01T00:00:00",
+			"Status": "A",
+			"Currency" : "PHP"
+		}, 
+		{
+			"ProductName": "Milk",
+			"Quantity": 100,
+			"ExtendedPrice": 2051.932,
+			"ShipperName": "ACME",
+			"ShippedDate": "2015-02-18T00:00:00",
+			"Status": "B",
+			"Currency" : "PHP"
+		}, 
+		{
+			"ProductName": "Canned Beans",
+			"Quantity": 120,
+			"ExtendedPrice": 1523.853,
+			"ShipperName": "ACME",
+			"ShippedDate": "2015-03-02T00:00:00",
+			"Status": "B",
+			"Currency" : "PHP"
+		}, 
+		{
+			"ProductName": "Salad",
+			"Quantity": 20,
+			"ExtendedPrice": 500.8,
+			"ShipperName": "ACME",
+			"ShippedDate": "2015-04-12T00:00:00",
+			"Status": "C",
+			"Currency" : "PHP"
+		}, 
+		{
+			"ProductName": "Bread",
+			"Quantity": 50,
+			"ExtendedPrice": 700.7191,
+			"ShipperName": "Fun Inc.",
+			"ShippedDate": "2015-01-27T00:00:00",
+			"Status": "A",
+			"Currency" : "PHP"
+		}]
+}
