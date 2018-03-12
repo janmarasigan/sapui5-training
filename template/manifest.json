@@ -22,7 +22,6 @@
 		"rootView" : {
 			"viewName" : "sapui5.training.template.view.App",
 			"type" : "XML",
-			"async" : true,
 			"id" : "app"
 		},
 		"dependencies" : {
