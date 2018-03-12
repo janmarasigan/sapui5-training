@@ -26,14 +26,13 @@ sap.ui.define([
         init : function() {
             UIComponent.prototype.init.apply(this, arguments);
             
-            var oData = {
-                recipient : {
-                    name : "World"
-                }
-            };
-            var oModel = new JSONModel(oData);
-            this.setModel(oModel);  // <- this.setModel() is used instead of this.getView().setModel()
+//            var oData = {
+//                recipient : {
+//                    name : "World"
+//                }
+//            };
+//            var oModel = new JSONModel(oData);
+//            this.setModel(oModel);  // <- this.setModel() is used instead of this.getView().setModel()
         }
     });
 });
-*/
