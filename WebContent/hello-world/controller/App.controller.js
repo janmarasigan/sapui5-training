@@ -6,6 +6,11 @@ sap.ui.define([
     "use strict";
     return Controller.extend("sapui5.training.helloworld.controller.App", {
         onInit : function() {
+        	/* For this chapter, we move the JSONModel creation 
+        	 * from the controller to the Component
+        	 * 
+        	 * In the Component file, add sap.ui.model.json.JSONModel to the definition
+        	 * */
             var oData = {
                 recipient : {
                     name : "World"
