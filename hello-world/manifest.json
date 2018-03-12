@@ -1,7 +1,7 @@
 {
 	"_version" : "1.8.0",
 	"sap.app" : {
-		"id" : "sapui5.training.template",
+		"id" : "sapui5.training.helloworld",
 		"type" : "application",
 		"i18n" : "i18n/i18n.properties",
 		"title" : "{{appTitle}}",
@@ -20,9 +20,8 @@
 	},
 	"sap.ui5" : {
 		"rootView" : {
-			"viewName" : "sapui5.training.template.view.App",
+			"viewName" : "sapui5.training.helloworld.view.App",
 			"type" : "XML",
-			"async" : true,
 			"id" : "app"
 		},
 		"dependencies" : {
@@ -35,7 +34,7 @@
 			"i18n" : {
 				"type" : "sap.ui.model.resource.ResourceModel",
 				"settings" : {
-					"bundleName" : "sapui5.training.template.i18n.i18n"
+					"bundleName" : "sapui5.training.helloworld.i18n.i18n"
 				}
 			}
 		}
