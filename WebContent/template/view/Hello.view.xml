@@ -1,0 +1,16 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
+	controllerName="sapui5.training.template.controller.Hello">
+	<App>
+		<Page>
+			<content>
+				<Input value="World" />
+				<Button text="{i18n>sayHello}" press="onButtonPress" />
+				<List items="{/Products}">
+					<items>
+						<ObjectListItem title="{ProductName}" number="{UnitsInStock}" numberUnit="{Discontinued}" />
+					</items>
+				</List>
+			</content>
+		</Page>
+	</App>
+</mvc:View>

@@ -7,7 +7,20 @@
 		"title" : "{{appTitle}}",
 		"description" : "{{appDescription}}",
 		"applicationVersion" : {
-			"vevrsion" : "1.0.0"
+			"version" : "1.0.0"
+		},
+		"dataSources" : {
+			"items" : {
+				"type" : "JSON",
+				"uri" : "model/Items.json"
+			},
+			"northwind" : {
+				"type" : "OData",
+				"uri" : "http://services.odata.org/V3/Northwind/Northwind.svc",
+				"settings" : {
+					"odataVersion" : "2.0"
+				}
+			}
 		}
 	},
 	"sap.ui" : {
@@ -20,7 +33,7 @@
 	},
 	"sap.ui5" : {
 		"rootView" : {
-			"viewName" : "sapui5.training.template.view.App",
+			"viewName" : "sapui5.training.template.view.Hello",
 			"type" : "XML",
 			"id" : "app"
 		},
@@ -36,7 +49,14 @@
 				"settings" : {
 					"bundleName" : "sapui5.training.template.i18n.i18n"
 				}
-			}
+			},
+			"items" : {
+				"type" : "sap.ui.model.json.JSONModel",
+				"dataSource" : "items"
+			},
+			"" : {
+				"dataSource" : "northwind"
+			}			
 		}
 	}
 }
