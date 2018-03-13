@@ -8,6 +8,7 @@
             		<Button text="Press me" press="onButtonPress" />
             		<List>
             			<StandardListItem title="Item" />
+            			<StandardListItem title="Item 2" />
             		</List>
             	</content>
             </Page>
