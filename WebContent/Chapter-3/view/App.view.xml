@@ -5,7 +5,7 @@
         <pages>
             <Page>
             	<content>
-            		<Button text="Press me" />
+            		<Button text="Press me" press="onButtonPress" />
             		<List>
             			<StandardListItem title="Item" />
             		</List>
